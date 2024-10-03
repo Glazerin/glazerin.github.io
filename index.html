@@ -1,112 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
+
 <body>
     <nav>
-        <a href="">Introduction</a>
-        <a href="">About Me</a>
-        <a href="">Education</a>
-        <a href="">Experience</a>
-        <a href="">Skills</a>
-        <a href="">My Projects</a>
-        <a href="">Contact Me</a>
+        <a href="#intro">Introduction</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">My Projects</a>
+        <a href="#contact">Contact Me</a>
     </nav>
-    
-    <div class="intro">
-        <div>
-            <figure>
+
+    <div class="intro--container" id="intro">
+        <div class="intro section">
+            <div>
                 <img src="profile photo.png" alt="Profile Photo">
-                <figcaption>Erin Kumala Aliwarga's Profile Photo</figcaption>
-            </figure>
-        </div>
-        <div>
-            <h1>Hi! I'm <strong>Erin</strong></h1>
-            <p>Nice to meet you!</p>
-            <br>
-            <h2>Erin Kumala Aliwarga</h2>
-            <h3>Computer Science and Mathematics Undergraduate</h3>
+            </div>
+            <div>
+                <h1>Hi! I'm <strong>Erin</strong></h1>
+                <p>Nice to meet you!</p>
+                <br>
+                <h2>Erin Kumala Aliwarga</h2>
+                <h3>Computer Science and Mathematics Undergraduate</h3>
+            </div>
         </div>
     </div>
 
-    <div class="about">
+    <div class="about section" id="about">
         <h1>About Me</h1>
-        <p> As a math and art enthusiast, getting into the Computer Science and Mathematics major was quite a challenge for someone like me who never coded before. But I was very lucky that I was able to get to know the art of Computer Science, UI/UX Design. Despite studying computer science and mathematics for several years in college, my passion for art is undeniable and my love for UI/UX Design grows stronger by the day. I am always enthusiastic and contribute as much as possible in every job I do, even in group work. especially if I get the task to create the UI for an application, website or any kind of programme that my group is working on, I can't be more happier.</p>
-        <p>At the beginning of the first semester of college in 2021, I also started a small business called Diascia Attelier, which specialized in producing unique crochet products. From only selling on Shopee, now Diascia Attelier is selling offline at several art markets. Our next market is at Kira Kira Art Market 03 and Comifuro 19, if you have the time please do stop by!</p>
-        <div>
-            <div>
-                <img src="diasciattel.jpg" alt="Diascia Attelier's Logo">
-                <img src="catyaki.png" alt="Diascia Attelier's product : Taiyaki Cat Keychain">
-            </div>
-            <div>
+        <p>&emsp;As a math and art enthusiast, getting into the Computer Science and Mathematics major was quite a
+            challenge for someone like me who never coded before. But I was very lucky that I was able to get to know
+            the art of Computer Science, UI/UX Design. Despite studying computer science and mathematics for several
+            years in college, my passion for art is undeniable and my love for UI/UX Design grows stronger by the day. I
+            am always enthusiastic and contribute as much as possible in every job I do, even in group work. especially
+            if I get the task to create the UI for an application, website or any kind of programme that my group is
+            working on, I can't be more happier.</p>
+        <br>
+        <p>&emsp;At the beginning of the first semester of college in 2021, I also started a small business called
+            Diascia Attelier, which specialized in producing unique crochet products. From only selling on Shopee, now
+            Diascia Attelier is selling offline at several art markets. Our next market is at Kira Kira Art Market 03
+            and Comifuro 19, if you have the time please do stop by!</p>
+        <br>
+        <div class="container--img">
+            <img src="diasciattel.jpg" alt="Diascia Attelier's Logo">
+            <img src="catyaki.png" alt="Diascia Attelier's product : Taiyaki Cat Keychain">
+            <div class="shop">
                 <h4>Discover Us on Social Media</h4>
                 <p>Shop Account : <a href="https://www.instagram.com/diasciattel.pm">@diasciattel.pm</a></p>
-                <p>Art Account  : <a href="https://www.instagram.com/_glazedonuuuts">@_glazedonuuuts</a></p>
+                <p>Art Account : <a href="https://www.instagram.com/_glazedonuuuts">@_glazedonuuuts</a></p>
             </div>
         </div>
     </div>
-    <br>
-    <div class="edu">
+    <div class="edu section" id="education">
         <h1>Education</h1>
         <br>
-        <h2>Bina Nusantara University</h2>
-        <p>2021 - now</p>
-        <br>
-        <h2>SMA Santa Theresia Jakarta</h2>
-        <p>2018 - 2021</p>
-        <br>
-        <h2>SMP Santa Theresia Jakarta</h2>
-        <p>2018 - 2015</p>
-    </div>
-    <br>
-    <div class="exp">
-        <h1>Experience</h1>
         <div>
+            <h2>Bina Nusantara University</h2>
+            <p>2021 - now</p>
+        </div>
+        <br>
+        <div>
+            <h2>SMA Santa Theresia Jakarta</h2>
+            <p>2018 - 2021</p>
+        </div>
+        <br>
+        <div>
+            <h2>SMP Santa Theresia Jakarta</h2>
+            <p>2018 - 2015</p>
+        </div>
+    </div>
+    <div class="exp section" id="experience">
+        <h1>Experience</h1>
+        <div class="box">
             <h2>Job Experience</h2>
             <br>
             <h4>Education Counselor of Bina Nusantara University</h4>
             <p>Bina Nusantara University | May 2021 - July 2022</p>
-            <p>After graduating from high school, I basically have nothing to do. So I was looking for a side hustle to fill up my time, and I got the invitation email to join the Education Counselor team of my university. This job required very good communication and marketing skills. Before college I've never joined any student organization (student council) and only focused myself on studying, so I believed that joining the Education Counselor team would benefit me in every way. The job description includes attracting high school students who will soon graduate to enter Bina Nusantara University, guiding them before the entrance exam and reminding them to make an initial payment before starting their studies. From this side hustle, I've earned my first ever money from my own struggles. The amount was quite much and I'm proud of it.</p>
+            <p>After graduating from high school, I basically have nothing to do. So I was looking for a side hustle to
+                fill up my time, and I got the invitation email to join the Education Counselor team of my university.
+                This job required very good communication and marketing skills. Before college I've never joined any
+                student organization (student council) and only focused myself on studying, so I believed that joining
+                the Education Counselor team would benefit me in every way. The job description includes attracting high
+                school students who will soon graduate to enter Bina Nusantara University, guiding them before the
+                entrance exam and reminding them to make an initial payment before starting their studies. From this
+                side hustle, I've earned my first ever money from my own struggles. The amount was quite much and I'm
+                proud of it.</p>
             <br>
         </div>
-        <div>
+        <div class="box">
             <h2>Volunteer Experience</h2>
             <br>
             <h4>Pengabdian Pada Masyarakat (P2M) 2023 by HIMMAT</h4>
             <p>Panti Asuhan Adinda | March - May 2023</p>
-            <p>As part of Himpunan Mahasiswa Matematika's annual agenda, association administrators and avtivists carry out social activities aimed at helping people in need. The event is called P2M, and in 2023 we held it at Adinda Orphanage. We gave them clothes, basic necessities, and played many math games together. At that time I'm helping the funding division as HIMMAT's Treasurer.</p>
+            <p>As part of Himpunan Mahasiswa Matematika's annual agenda, association administrators and avtivists carry
+                out social activities aimed at helping people in need. The event is called P2M, and in 2023 we held it
+                at Adinda Orphanage. We gave them clothes, basic necessities, and played many math games together. At
+                that time I'm helping the funding division as HIMMAT's Treasurer.</p>
             <br>
             <h4>Pengabdian Pada Masyarakat (P2M) 2022 by HIMMAT</h4>
             <p>Zoom Meetings (Online) | March - April 2022</p>
-            <p>As part of Himpunan Mahasiswa Matematika's annual agenda, association administrators and avtivists carry out social activities aimed at helping people in need. But in 2022, the COVID-19 pandemic was still rampant, so every event of HIMMAT was held online. Via Zoom Meetings, we organized P2M 2022 by teaching Java programming language to high schoolers and Binusian that's interested to learn. I was in the event division, preparing all the things we'll need.</p>
+            <p>As part of Himpunan Mahasiswa Matematika's annual agenda, association administrators and avtivists carry
+                out social activities aimed at helping people in need. But in 2022, the COVID-19 pandemic was still
+                rampant, so every event of HIMMAT was held online. Via Zoom Meetings, we organized P2M 2022 by teaching
+                Java programming language to high schoolers and Binusian that's interested to learn. I was in the event
+                division, preparing all the things we'll need.</p>
             <br>
         </div>
-        <div>
+        <div class="box">
             <h2>Organizational Experience</h2>
             <br>
             <h4>HIMMAT Activist</h4>
             <p>Bina Nusantara University | February 2022 - February 2023</p>
-            <p>As an activist of HIMMAT, I contributed in preparing several events with different position; event division of P2M HIMMAT 2022, funding division coordinator of HIMMAT Birthday and Competition 2022, funding and transport division coordinator for MATIC 2022, leader of Welcoming Party HIMMAT 2022 for Binusian 2026 and funding division of LDK-A (Latihan Dasar Kepemimpinan Aktivis) 2023. In conclusion, I contributed in many HIMMAT events mostly as part of the funding division.</p>
+            <p>As an activist of HIMMAT, I contributed in preparing several events with different position; event
+                division of P2M HIMMAT 2022, funding division coordinator of HIMMAT Birthday and Competition 2022,
+                funding and transport division coordinator for MATIC 2022, leader of Welcoming Party HIMMAT 2022 for
+                Binusian 2026 and funding division of LDK-A (Latihan Dasar Kepemimpinan Aktivis) 2023. In conclusion, I
+                contributed in many HIMMAT events mostly as part of the funding division.</p>
             <br>
             <h4>HIMMAT Treasurer</h4>
             <p>Bina Nusantara University | February 2023 - February 2024</p>
-            <p>After being an activist for about a year, I took the role as one of HIMMAT's administrators, the Treasurer, at the choice of the next Chairman. For a year, I'm responsible in taking care of HIMMAT's financial bookkeeeping, making decisions together with the Chairman and Secretary, and guiding the funding divisions of HIMMAT's various events so that their funding reports won't be having any single mistake. After retiring from the position, I then became a passive HIMMAT member, giving chances to the younger generations so that they too can learn something from HIMMAT.</p>
+            <p>After being an activist for about a year, I took the role as one of HIMMAT's administrators, the
+                Treasurer, at the choice of the next Chairman. For a year, I'm responsible in taking care of HIMMAT's
+                financial bookkeeeping, making decisions together with the Chairman and Secretary, and guiding the
+                funding divisions of HIMMAT's various events so that their funding reports won't be having any single
+                mistake. After retiring from the position, I then became a passive HIMMAT member, giving chances to the
+                younger generations so that they too can learn something from HIMMAT.</p>
             <br>
         </div>
-        <div>
+        <div class="box">
             <h2>Certifications</h2>
             <br>
-            <div>
-                <figure></figure>
+            <div class="certificates">
+                <figure>
                     <img src="sertif bncc.png" alt="Certificate from BNCC">
                     <figcaption>
                         Certificate of Completion of BNCC UI/UX Design class with High Distinction.
                     </figcaption>
                 </figure>
-                <br>
                 <figure>
                     <img src="sertif bnmc.jpg" alt="Certificate from BNMC">
                     <figcaption>
@@ -116,54 +158,105 @@
             </div>
         </div>
     </div>
-    <br>
-    <div>
+    <div id="skills">
         <h1>Skills</h1>
+        <div class = "skills--img">
+            <img src="language skills.png">
+            <img src="best skills.png">
+        </div>
     </div>
-    <br>
-    <div>
+    <div class="projects section" id="projects">
         <h1>My Projects</h1>
         <br>
         <div>
             <h2>HIMMAT Website Design</h2>
             <img src="Hero.png" alt="HIMMAT Website">
-            <p>When I'm still in the position of HIMMAT Treasurer, us administrators got an idea to make an independent HIMMAT website, since our website becomes one with BINUS' and we didn't really like it. So we got a plan to try making one but eventually we're too busy that semester and our Secretary had a full time job too (he's in charge for the back end) so the project was neglected and I only managed to make this Hero Page. Personally I'm quite satisfied with it and kinda had fun making it because I had the chance to play and practice with the shapes.</p>
-            <button type="submit"><a href="https://www.figma.com/design/kDbcq2D4z2egrYHuXiUqKu/Untitled?node-id=0-1&t=qhUYLCgBMiMPNdFi-1">Open Figma</a></button>
-
+            <p id="desc-1" class="tag--desc">When I'm still in the position of HIMMAT Treasurer, us administrators got
+                an idea to make an independent
+                HIMMAT website, since our website becomes one with BINUS' and we didn't really like it. So we got a plan
+                to try making one but eventually we're too busy that semester and our Secretary had a full time job too
+                (he's in charge for the back end) so the project was neglected and I only managed to make this Hero
+                Page. Personally I'm quite satisfied with it and kinda had fun making it because I had the chance to
+                play and practice with the shapes.</p>
+            <button onclick="showMore('desc-1')" id ="btn--desc-1">Show More</button>
+            <button type="submit"><a
+                    href="https://www.figma.com/design/kDbcq2D4z2egrYHuXiUqKu/Untitled?node-id=0-1&t=qhUYLCgBMiMPNdFi-1">Open
+                    Figma</a></button>
+        </div>
+        <div>
             <h2>Foo-Yoh! Mobile App Design</h2>
             <img src="Fooyoh.png" alt="Foo-Yoh! App Design">
-            <p>This was a group project for the Software Engineering class, and I got the task to make the UI (as always, I'm grateful). The design is quite simple and professional because we're short in time and before the end of the semester we need to finish the application wholly. Foo-Yoh! is a mobile app that specializes in selling recipes and fresh ingredients needed for the recipe. We came up with this idea while thinking about the many people that lack daily nutritions because they can't even cook on their own and will either skip meals or buy some fast foods.</p>
-            <button type="submit"><a href="https://www.figma.com/design/meJXZQs5cFx2pC7esgk0Fb/Untitled?node-id=0-1&t=QNNHlyMXsReSL5hD-1">Open Figma</a></button>
+            <p id="desc-2" class="tag--desc">This was a group project for the Software Engineering class, and I got the
+                task to make the UI (as
+                always, I'm grateful). The design is quite simple and professional because we're short in time and
+                before the end of the semester we need to finish the application wholly. Foo-Yoh! is a mobile app that
+                specializes in selling recipes and fresh ingredients needed for the recipe. We came up with this idea
+                while thinking about the many people that lack daily nutritions because they can't even cook on their
+                own and will either skip meals or buy some fast foods.</p>
+            <button onclick="showMore('desc-2')" id ="btn--desc-2">Show More</button>
+            <button type="submit"><a
+                    href="https://www.figma.com/design/meJXZQs5cFx2pC7esgk0Fb/Untitled?node-id=0-1&t=QNNHlyMXsReSL5hD-1">Open
+                    Figma</a></button>
             <button type="submit"><a href="https://github.com/subtle64/FooYoh">Open Github</a></button>
         </div>
         <div>
             <h2>ILKEA Website Design</h2>
             <img src="ilkea.jpg" alt="ILKEA Website">
-            <p>ILKEA Website Design was made as a final project requirement for Human and Computer Interaction Laboratory class. The website must contain a Home Page, Gallery Page, Member Page, About Us Page, and Contact Us Page. The lecturers didn't give us specific request for the design, only for the contents, so the design created was purely from my own creativity and preference. I got an almost perfect score for this design so I guess it's pretty good~</p>
-            <button><a href="https://www.figma.com/design/6OmMahuKXHKTL93IJLB5Pe/Untitled?node-id=0-1&t=neyiXZhoChBtXLHr-1">Open Figma</a></button>
-
+            <p id="desc-3" class="tag--desc">ILKEA Website Design was made as a final project requirement for Human and
+                Computer Interaction
+                Laboratory class. The website must contain a Home Page, Gallery Page, Member Page, About Us Page, and
+                Contact Us Page. The lecturers didn't give us specific request for the design, only for the contents, so
+                the design created was purely from my own creativity and preference. I got an almost perfect score for
+                this design so I guess it's pretty good~</p>
+            <button onclick="showMore('desc-3')" target-id="desc-3" id ="btn--desc-3">Show More</button>
+            <button><a
+                    href="https://www.figma.com/design/6OmMahuKXHKTL93IJLB5Pe/Untitled?node-id=0-1&t=neyiXZhoChBtXLHr-1">Open
+                    Figma</a></button>
+        </div>
+        <div>
             <h2>MyLibz Website Design</h2>
             <img src="mylibz.png" alt="MyLibz Design">
-            <p>This simple and incomplete website design was an impromptu homework given by our lecturer. She just wanna see how would we design a home page, so here's mine.</p>
-            <button><a href="https://www.figma.com/design/aEK9TiXX5Ho0IVzKQiTiQO/Untitled?node-id=0-1&t=WOpSTmqNub9hJtTZ-1">Open Figma</a></button>
+            <p id="desc-4" class="tag--desc">This simple and incomplete website design was an impromptu homework given
+                by our lecturer. She just wanna
+                see how would we design a home page, so here's mine.</p>
+            <button onclick="showMore('desc-4')" id ="btn--desc-4">Show More</button>
+            <button><a
+                    href="https://www.figma.com/design/aEK9TiXX5Ho0IVzKQiTiQO/Untitled?node-id=0-1&t=WOpSTmqNub9hJtTZ-1">Open
+                    Figma</a></button>
         </div>
         <div>
             <h2>Tic-Tac-Woof Game Design</h2>
             <img src="tictacwoof.png" alt="Tic-Tac-Woof Game">
-            <p>Tic-Tac-Woof is a tictactoe game with a 5x5 game board instead of 3x3. This was a final project for the Object Oriented Programming class. Not only the UI, I also drew most of the assets, like the dogs, logo, coin and background. I really had fun making this design because it's been a while since i drew something and it turned out super cute. Our group also got an almost perfect score for this project because the lecturer said that the UI was really good~</p>
-            <button><a href="https://www.figma.com/design/mg8IUtZ7Icajet1HZWRyf9/tictacwoof?node-id=0-1&t=2Hhd8gjMXeEFWVyI-1">Open Figma</a></button>
+            <p id="desc-5" class="tag--desc">Tic-Tac-Woof is a tictactoe game with a 5x5 game board instead of 3x3. This
+                was a final project for the
+                Object Oriented Programming class. Not only the UI, I also drew most of the assets, like the dogs, logo,
+                coin and background. I really had fun making this design because it's been a while since i drew
+                something and it turned out super cute. Our group also got an almost perfect score for this project
+                because the lecturer said that the UI was really good~</p>
+            <button onclick="showMore('desc-5')" id ="btn--desc-5">Show More</button>
+            <button><a
+                    href="https://www.figma.com/design/mg8IUtZ7Icajet1HZWRyf9/tictacwoof?node-id=0-1&t=2Hhd8gjMXeEFWVyI-1">Open
+                    Figma</a></button>
             <button><a href="https://github.com/intll/tictacwoof">Open Github</a></button>
-
+        </div>
+        <div>
             <h2>Craftsy Website Design</h2>
             <img src="craftsy.png" alt="Craftsy Design">
-            <p>Craftsy is a marketplace website that mainly sells handmade goods made by artisans from Indonesia. Originally it was my job to wholly make the UI, but near the deadline I have something very urgent to do and I got help from my teammates, so in the end this website design became a team's project insted of a solo project.</p>
-            <button><a href="https://www.figma.com/design/Fh2RFWAPB3GrdTxdtK5zOJ/Craftsy-V2?node-id=0-1&t=oONXWe6QkLlHZ1Pm-1">Open Figma</a></button>
+            <p id="desc-6" class="tag--desc">Craftsy is a marketplace website that mainly sells handmade goods made by
+                artisans from Indonesia.
+                Originally it was my job to wholly make the UI, but near the deadline I have something very urgent to do
+                and I got help from my teammates, so in the end this website design became a team's project insted of a
+                solo project.</p>
+            <button onclick="showMore('desc-6')" id ="btn--desc-6">Show More</button>
+            <button><a
+                    href="https://www.figma.com/design/Fh2RFWAPB3GrdTxdtK5zOJ/Craftsy-V2?node-id=0-1&t=oONXWe6QkLlHZ1Pm-1">Open
+                    Figma</a></button>
             <button><a href="https://github.com/subtle64/Vault/tree/master/PHP/Craftsy">Open Github</a></button>
         </div>
     </div>
-    <div>
+    <div id="contact">
         <h1>Contact Me</h1>
-
     </div>
 </body>
+
 </html>
