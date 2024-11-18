@@ -99,7 +99,7 @@ img {
     background-color: #D1BB9E;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 1rem;
+    column-gap: 2rem;
     row-gap: 4rem;
     padding-right: 4rem;
 }
